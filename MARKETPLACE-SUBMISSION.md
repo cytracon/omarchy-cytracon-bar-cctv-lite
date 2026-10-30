@@ -14,7 +14,7 @@ Body (keep headings and checklist exactly):
 ```
 ### Repository URL
 
-https://github.com/cytracon/omarchy-cctv-lite
+https://github.com/cytracon/omarchy-cytracon-bar-cctv-lite
 
 ### Category
 
@@ -36,7 +36,7 @@ Plugin ID: `io.github.cytracon.cctv-lite`.
 
 This is an Omarchy Quattro bar-widget (Quickshell) for CCTV Lite 0.2.2 on Omarchy/Arch. It does not ship the GTK viewer. `omarchy plugin add` only clones this repo. If CCTV Lite is missing, the panel runs `omarchy install cctv-lite` (user-local `~/.local`).
 
-The panel reads `$HOME/.local/bin/cctv-lite --status` (no secrets) and can launch that same fixed path. Source opens https://github.com/cytracon/cctv-lite via `omarchy-launch-browser`. No camera credentials in this repository. MIT license. `omarchy plugin validate` passed locally.
+The panel reads `$HOME/.local/bin/cctv-lite --status` (no secrets) and can launch that same fixed path. Source opens https://github.com/cytracon/omarchy-cytracon-cctv-lite via `omarchy-launch-browser`. No camera credentials in this repository. MIT license. `omarchy plugin validate` passed locally.
 
 Layout matches the official Omarchy plugin template: `BarWidget.qml` + `Panel.qml` + `Model.js`.
 
